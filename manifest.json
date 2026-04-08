@@ -1,0 +1,22 @@
+{
+  "name": "Dompet ANR",
+  "short_name": "Dompet ANR",
+  "description": "Aplikasi keuangan pribadi profesional — alokasi otomatis & tracking pengeluaran",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0914",
+  "theme_color": "#0A0914",
+  "lang": "id",
+  "categories": ["finance","productivity"],
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icon-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Input Gaji","short_name":"Gaji","url":"./index.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
+    {"name":"Catat Pengeluaran","short_name":"Keluar","url":"./index.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]}
+  ]
+}
